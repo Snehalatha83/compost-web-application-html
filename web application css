@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NRI - Compostable Waste Analysis</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      background-color: #d4ebe8;
+      padding: 20px 10%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #336d64;
+    }
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 50px 10%;
+    }
+
+    .half-section {
+      width: 50%;
+      padding: 20px;
+    }
+
+    .half-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .half-section p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .half-section a {
+      color: #ffffff;
+      background-color: #336d64;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .half-section img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .contact-section {
+      background-color: #f7d3e0;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .half-section {
+        width: 100%;
+        text-align: center;
+      }
+
+      .half-section img {
+        margin: 20px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NRI - Compostable Waste Analysis</h1>
+  </header>
+
+  <section>
+    <div class="half-section">
+      <h2>View Our Most Recent Work</h2>
+      <p>Discover our latest innovations in compostable waste management and recycling solutions.</p>
+      <a href="#">Explore Now</a>
+    </div>
+    <div class="half-section">
+      <img src="https://i.ibb.co/FgpL31v/Composting-waste-1200x300.jpg" alt="Compostable Waste">
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2>Get in Touch</h2>
+    <p>We'd love to hear from you! Contact us for more information about our services.</p>
+    <a href="#">Contact Us</a>
+  </section>
+</body>
+</html>
